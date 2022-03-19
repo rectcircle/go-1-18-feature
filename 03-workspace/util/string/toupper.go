@@ -1,6 +1,8 @@
 package stringutil
 
-import "unicode"
+import (
+	"unicode"
+)
 
 // ToUpper uppercases all the runes in its argument string.
 func ToUpper(s string) string {
